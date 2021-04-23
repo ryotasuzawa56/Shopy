@@ -93,8 +93,10 @@ span{
   background-color:white;
   display:block;
   margin:0 auto;
+  padding-top:40px;
+  padding-bottom: 40px;
   }
-  /* shopilabのパクった */
+  /* 画像を真ん中に持っていきたい 。*/
   .t-list{
     display:flex;
   }
@@ -123,6 +125,12 @@ span{
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-top: 80px solid #F1F0F5;
+}
+.why-shopify h3{
+  font-weight: bold;
+  font-size:32px;
+  white-space:nowrap
+  /* 1行にまとめるやつ */
 }
 
 .difference-triangle{
