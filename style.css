@@ -1,0 +1,333 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+*{
+  padding:0px;
+  margin:0px;
+  font-weight: bold;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+section{
+  padding-bottom: 30px;
+}
+header{
+  background: #F1F0F5;
+  margin:0px;
+}
+img{
+  text-align: center;
+}
+.top-page{
+  display:flex;
+  justify-content: space-around;
+  padding:133px 69px 91px 69px;
+}
+.top-img{
+  height:445px;
+  width:423px;
+  /* marginで画像サイズ変更した */
+}
+.top-title{
+}
+/* 右側の親要素 */
+.top-title h1{
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.7;
+}
+/* 右側のh1要素 */
+span{
+  color:#7B3EC8;
+  background:linear-gradient(transparent 60%, #F5E279 60%);
+}
+.toptitle-botton{
+  width:280px;
+  margin:0 auto;
+}
+/* ボタンと文字の親要素 */
+.consult{
+  font-size:22px;
+  background-color: #DF6662;
+  color:white;
+  padding:10px 40px;
+  border-style: none;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+/* ボタンの要素 */
+.toptitle-botton p{
+  font-size:16px;
+  margin-top:8px;
+  padding-left:12px;
+  /* padding-leftは上のボタンと揃えるために使った。 */
+  /* 下の文字の要素 */
+}
+.trouble{
+  background-color:#F1F0F5;
+  text-align: center;
+}
+.trouble-q{
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.trouble-q h2{
+  font-weight: bold;
+  font-size:32px;
+}
+.trouble-lists{
+  width:690px;
+  height:427px;
+  background-color:white;
+  display:block;
+  margin:0 auto;
+  }
+  /* shopilabのパクった */
+  .t-list{
+    display:flex;
+  }
+  .etc{
+    margin:0 auto;
+  }
+  .etc p{
+    text-align: center;
+    border-width: bold;
+    font-size:24px;
+  }
+
+.solution{
+  text-align: center;
+  font-size: 28px;
+  background-color:white;
+}
+.shopifyimg{
+  margin:0 auto;
+}
+
+.triangle{
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 80px solid #F1F0F5;
+}
+
+.difference-triangle{
+  margin: 40px auto 20px;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 20px solid white;
+
+}
+
+.concept{
+  text-align: center;
+  background-color: #F1F0F5;
+}
+
+.difference{
+  text-align: center;
+  background-color: #548536;
+}
+
+.reasons{
+  background-color: #66CCD9;
+}
+
+.discount{
+  background-color: #548536;
+}
+
+.archive{
+  background-color: #f0f0f0;
+}
+
+.step{
+  background-color: #fafafa;
+}
+
+.contact{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sec-ttl{
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.reason-box{
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.reverse-text-box{
+  order: 2;
+}
+
+.reverse-image-box{
+  order:1
+}
+
+.step-box{
+  display: flex;
+}
+
+.container{
+  margin:0 auto;
+}
+
+/* .fee-box{
+  display: flex;
+} */
+
+.btn-area{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  background-color: #C94D43;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+a.btn--red.btn--cubic {
+  border-bottom: 5px solid #9f000c;
+}
+
+a.btn--red.btn--cubic:hover {
+  margin-top: 3px;
+  border-bottom: 2px solid #9f000c;
+  color: white;
+}
+
+a.btn--radius {
+  border-radius: 100vh;
+}
+
+.solution-ttl{
+  color: white;
+  font-weight: bold;
+}
+
+.solution p{
+  color: black;
+  font-weight: bold;
+}
+
+.solution-image{
+  text-align: center;
+}
+
+.concept{
+  font-weight: bold;
+}
+
+.difference h3{
+  color: white;
+  font-weight: bold;
+}
+
+.difference p{
+  font-weight: bold;
+}
+
+.reasons h3{
+  display: inline-block;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.reasons p{
+  font-weight: bold;
+}
+
+.reasons a{
+  text-align: center;
+}
+.fee-text-box{
+  font-weight: bold;
+}
+
+.fee-text-box p{
+  padding-bottom: 20px;
+}
+.faq-title h1{
+  text-align: center;
+  font-size:36px;
+  font-weight:bold;
+
+}
+.items {
+  background: #f7f7f7;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+.items .items-q:before {
+  content: 'Q';
+  font-size: 3rem;
+  line-height: 1;
+  color: #ffa200;
+  width: 25px;
+  margin-right: 20px;
+}
+/* Qのやつ作成した beforeをHTMLに入れてないのに出来ちゃってるのがよくわからん。*/
+.items .items-q {
+  font-size: 2rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 35px 15px 30px;
+  position: relative;
+}
+.items .items-a{
+  font-size: 1.6rem;
+  padding-bottom: 15px;
+  padding-left: 75px;
+  padding-right: 35px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .reverse-text-box{order: 1;}
+  .reverse-image-box{order:2;}
+}
