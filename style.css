@@ -38,9 +38,6 @@ img{
   width:423px;
   /* marginで画像サイズ変更した */
 }
-.top-title{
-}
-/* 右側の親要素 */
 .top-title h1{
   font-size: 42px;
   font-weight: bold;
@@ -54,6 +51,7 @@ span{
 .toptitle-botton{
   width:280px;
   margin:0 auto;
+  margin-top:56px;
 }
 /* ボタンと文字の親要素 */
 .consult{
